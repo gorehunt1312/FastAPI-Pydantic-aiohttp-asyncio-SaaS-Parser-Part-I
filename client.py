@@ -44,3 +44,5 @@ async def dev(url, session, semaphore):
             print(f'Критическая ошибка. {e}')
 if __name__ == "__main__":
     asyncio.run(send_data())
+
+#Step 2: python client.py

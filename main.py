@@ -33,3 +33,5 @@ class ProductSchema(BaseModel):
 async def ready_data(payload: ProductSchema, response: Response):
     response.headers["X-App-Status"] = "Verified"
     return payload
+
+#Step 1: python -m uvicorn main:app --reload
